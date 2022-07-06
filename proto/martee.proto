@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package categories;
-
-service CategorieService {
-    rpc CreateCategories (CreateCategorieRequest) returns (CreateCategorieResponse) {}
-    rpc FindOne (FindOneRequest) returns (FindOneResponse) {}
-}
