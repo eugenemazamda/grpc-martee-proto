@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package martee;
+package categories;
 
 service CoursesService {
     rpc CreateCategory (CreateCategoryRequest) returns (CreateCategoryResponse) {}
