@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package categories;
 
-service CoursesService {
+service CategoriesService {
     rpc CreateCategory (CreateCategoryRequest) returns (CreateCategoryResponse) {}
     rpc FindOne (FindOneRequestCategory) returns (FindOneResponseCategory) {}
     rpc GetAllCategory (GetAllCategoryRequest) returns (GetAllCategoryResponse) {}
